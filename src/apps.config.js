@@ -11,6 +11,15 @@ import { displayTerminalCalc } from './components/apps/calc';
 
 const apps = [
     {
+        id: "about-herbert",
+        title: "Click HERE!!",
+        icon: './themes/Yaru/system/user-home.png',
+        disabled: false,
+        favourite: true,
+        desktop_shortcut: true,
+        screen: displayAboutVivek,
+    },
+    {
         id: "chrome",
         title: "Google Chrome",
         icon: './themes/Yaru/apps/chrome.png',
@@ -19,15 +28,15 @@ const apps = [
         desktop_shortcut: true,
         screen: displayChrome,
     },
-    {
-        id: "todo-ist",
-        title: "Todoist",
-        icon: './themes/Yaru/apps/todoist.png',
-        disabled: false,
-        favourite: true,
-        desktop_shortcut: false,
-        screen: displayTodoist,
-    },
+    // {
+    //     id: "todo-ist",
+    //     title: "Todoist",
+    //     icon: './themes/Yaru/apps/todoist.png',
+    //     disabled: false,
+    //     favourite: true,
+    //     desktop_shortcut: false,
+    //     screen: displayTodoist,
+    // },
     {
         id: "calc",
         title: "Calc",
@@ -36,15 +45,6 @@ const apps = [
         favourite: true,
         desktop_shortcut: false,
         screen: displayTerminalCalc,
-    },
-    {
-        id: "about-vivek",
-        title: "About Vivek",
-        icon: './themes/Yaru/system/user-home.png',
-        disabled: false,
-        favourite: true,
-        desktop_shortcut: true,
-        screen: displayAboutVivek,
     },
     {
         id: "vscode",
@@ -91,15 +91,15 @@ const apps = [
         desktop_shortcut: true,
         screen: displayTrash,
     },
-    {
-        id: "gedit",
-        title: "Contact",
-        icon: './themes/Yaru/apps/gedit.png',
-        disabled: false,
-        favourite: false,
-        desktop_shortcut: true,
-        screen: displayGedit,
-    },
+    // {
+    //     id: "gedit",
+    //     title: "Contact",
+    //     icon: './themes/Yaru/apps/gedit.png',
+    //     disabled: false,
+    //     favourite: false,
+    //     desktop_shortcut: true,
+    //     screen: displayGedit,
+    // },
 ]
 
 export default apps;
